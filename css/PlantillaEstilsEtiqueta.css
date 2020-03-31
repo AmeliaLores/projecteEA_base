@@ -1,15 +1,24 @@
-/*Exemple de full d'estil, que nom√©s t√© SELECTORS etiqueta*/
+/*Exemple de full d'estil, que nomÈs tÈ SELECTORS etiqueta*/
 
 /*Sintaxi fulls d'estil:
  * selector{
  * 			regla:valor;
- * 			} */
+ * 			} 
+ 
+ El selector pot ser: 
+ 	-Una etiqueta (com en aquest exemple)
+ 	-# (id: identificador) #{
+								}
+ 	-. (class: classe) .{
+							}
+ 
+ */
   
 body{
 	text-align: center;
 	} 
 	
-/* Estil pel t√≠tol h1*/	
+/* Estil pel tÌtol h1*/	
 h1{
 	font-family:Ubuntu;
 	font-size: 36px;
@@ -17,15 +26,18 @@ h1{
 	text-shadow: 2px 2px 8px #FF0000;
 }
 
-/* Estil pel p√†rragraf*/
+/* Estil pel p‡rragraf*/
 p{
 	color:blue;  
 	text-align: justify;
 	}
 
-/* Estil pel t√≠tol h2*/
+/* Estil pel tÌtol h2*/
 h2{
 	 color:white;  
 	 background-color: #931389;
 	 text-shadow: olive -3px -4px 5px;
 	}
+
+
+
