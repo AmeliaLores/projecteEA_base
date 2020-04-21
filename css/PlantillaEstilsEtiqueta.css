@@ -6,14 +6,20 @@
  * 			} 
  
  El selector pot ser: 
- 	-Una etiqueta (com en aquest exemple)
+ 	-*: tot
+ 	-Una etiqueta
  	-# (id: identificador) #{
 								}
  	-. (class: classe) .{
-							}
- 
+						} 
  */
-  
+
+/* Estil que aplica a tot*/	 
+*{
+	color:red;
+	}
+	
+/* Estil que aplica a tot el cos del document*/	 
 body{
 	text-align: center;
 	} 
@@ -39,5 +45,12 @@ h2{
 	 text-shadow: olive -3px -4px 5px;
 	}
 
+/* Estil amb selector id (com a atribut d'una etiqueta)*/
+#identificador{
+	 color:black;
+	}
 
-
+/* Estil amb selector class (com a atribut d'una etiqueta)*/
+#exempleclasse{
+	 color:yellow;
+	}
